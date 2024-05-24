@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_page_banner_components",
+  "info": {
+    "displayName": "Banner-Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "displayName": "BannerImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.banner-image"
+    },
+    "Heading": {
+      "type": "text"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}

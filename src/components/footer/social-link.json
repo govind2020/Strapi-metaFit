@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_footer_social_links",
+  "info": {
+    "displayName": "socialLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ]
+    },
+    "socialImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "socialMenuId": {
+      "type": "integer"
+    }
+  }
+}

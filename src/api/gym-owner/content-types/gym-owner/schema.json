@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gym_owners",
+  "info": {
+    "singularName": "gym-owner",
+    "pluralName": "gym-owners",
+    "displayName": "Gym-owner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ownerId": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

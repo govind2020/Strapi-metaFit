@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_metafit_menus",
+  "info": {
+    "displayName": "menu"
+  },
+  "options": {},
+  "attributes": {
+    "Menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "metafit.link-component"
+    }
+  }
+}

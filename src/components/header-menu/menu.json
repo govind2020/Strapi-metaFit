@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_header_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_banner_images",
+  "info": {
+    "displayName": "BannerImage"
+  },
+  "options": {},
+  "attributes": {
+    "bannerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "locaityArea": {
+      "type": "string"
+    },
+    "gymType": {
+      "type": "string"
+    }
+  }
+}

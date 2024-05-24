@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_footer_footer_menus",
+  "info": {
+    "displayName": "footerMenu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "socailMenuId": {
+      "type": "integer"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ]
+    }
+  }
+}

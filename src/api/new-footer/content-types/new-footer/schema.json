@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_footers",
+  "info": {
+    "singularName": "new-footer",
+    "pluralName": "new-footers",
+    "displayName": "NewFooter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newFooter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-component"
+    }
+  }
+}

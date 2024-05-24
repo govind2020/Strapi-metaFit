@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gym_deatils",
+  "info": {
+    "singularName": "gym-deatil",
+    "pluralName": "gym-deatils",
+    "displayName": "GymDeatil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gymid": {
+      "type": "uid",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "text"
+    },
+    "gymType": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "text"
+    },
+    "faclity": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "coverImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "monthlyPayment": {
+      "type": "integer"
+    },
+    "details": {
+      "type": "json"
+    },
+    "features": {
+      "type": "json"
+    },
+    "agentInfo": {
+      "type": "json"
+    },
+    "previewUrl": {
+      "type": "string"
+    }
+  }
+}

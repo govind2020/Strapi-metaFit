@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_button_button_components",
+  "info": {
+    "displayName": "ButtonComponent"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

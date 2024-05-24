@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nutrition_goals",
+  "info": {
+    "singularName": "nutrition-goal",
+    "pluralName": "nutrition-goals",
+    "displayName": "NutritionGoal "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "DietaryChoices": {
+      "type": "enumeration",
+      "enum": [
+        "vegetarian",
+        "vegan",
+        "omnivore"
+      ]
+    },
+    "eating_out": {
+      "type": "integer"
+    },
+    "water_drinking": {
+      "type": "integer"
+    },
+    "number_snacks": {
+      "type": "integer"
+    }
+  }
+}

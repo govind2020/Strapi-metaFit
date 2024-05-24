@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personal_informations",
+  "info": {
+    "singularName": "personal-information",
+    "pluralName": "personal-informations",
+    "displayName": "PersonalInformation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "body_type": {
+      "type": "string"
+    },
+    "neck": {
+      "type": "integer"
+    },
+    "waist": {
+      "type": "integer"
+    },
+    "hip": {
+      "type": "integer"
+    },
+    "workout_days": {
+      "type": "integer"
+    },
+    "is_fat_accurate": {
+      "type": "string"
+    },
+    "fitness_goal": {
+      "type": "enumeration",
+      "enum": [
+        "build_muscle",
+        "burn_fats",
+        "cardiovascular"
+      ]
+    }
+  }
+}
