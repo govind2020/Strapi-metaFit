@@ -1103,6 +1103,37 @@ export interface ApiProductProduct extends Schema.CollectionType {
   };
 }
 
+export interface ApiTestingTesting extends Schema.CollectionType {
+  collectionName: 'testings';
+  info: {
+    singularName: 'testing';
+    pluralName: 'testings';
+    displayName: 'testing';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    testingname: Attribute.String;
+    testingImage: Attribute.Media;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::testing.testing',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::testing.testing',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -1130,6 +1161,7 @@ declare module '@strapi/types' {
       'api::nutrition-goal.nutrition-goal': ApiNutritionGoalNutritionGoal;
       'api::personal-information.personal-information': ApiPersonalInformationPersonalInformation;
       'api::product.product': ApiProductProduct;
+      'api::testing.testing': ApiTestingTesting;
     }
   }
 }
